@@ -38,6 +38,10 @@ body {
   font-weight: 300;
 }
 
+
+/* ======================
+      Package CSS
+=========================*/
 .lotus-card-price,
 .lotus-sec-title {
   color: #231d4f;
@@ -87,9 +91,12 @@ body {
 }
 
 .lotus-toast {
-  border-left: 5px solid #ff4e4e;
+  border-left: 5px solid #007CFFA1;
 }
 
+/* ======================
+      Footer CSS
+=========================*/
 .footer-bg {
   background-color: #0b0d17;
 }
