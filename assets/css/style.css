@@ -11,7 +11,7 @@ body {
 }
 
 .overlay {
-  height: 80vh;
+  height: 90vh;
 }
 
 .lotus-sec-title {
@@ -99,4 +99,21 @@ body {
 =========================*/
 .footer-bg {
   background-color: #0b0d17;
+}
+
+/* ======================
+      Responsive CSS
+=========================*/
+@media (max-width:576px) {
+  .overlay {
+    height: 70vh;
+  }
+
+  .lotus-slider-title {
+    font-size: 38px;
+  }
+
+  .lotus-slider-subtitle {
+    font-size: 13px;
+  }
 }
