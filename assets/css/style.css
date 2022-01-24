@@ -3,5 +3,58 @@
 =========================*/
 body {
   font-family: "Roboto", sans-serif;
-  background: #e5e5e5;
+  background: #ffffff;
+}
+.mt-20 {
+  margin-top: 100px;
+}
+
+.lotus-sec-title {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #0a0826;
+  font-size: 38px;
+  text-align: center;
+}
+
+.lotus-card-price,
+.lotus-sec-title {
+  color: #231d4f;
+  font-weight: 700;
+  font-size: 36px;
+}
+.lotus-card-title {
+  font-size: 28px;
+}
+.lotus-card-text {
+  color: #848199;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.lotus-card-text > i {
+  background: #526eecd0;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  margin-right: 7px;
+  color: #fff;
+}
+.lotus-card-list {
+  list-style: none;
+}
+.lotus-special-card {
+  border-radius: 20px;
+  margin-top: -70px;
+  position: relative;
+}
+.hot {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  background-color: #ff4e4e;
+  padding: 3px 10px;
+  font-weight: 300;
+  color: #fff;
+  font-size: 13px;
 }
